@@ -2,17 +2,26 @@
 <html lang="pt - BR">
     <head>
         <meta charset="utf-8"/>
-        <title>Mazzuia Engenharia</title>
+        <meta name="description" content="A Mazzuia engenharia é uma empresa "/> <!--Descrição da página-->
+        <meta name="keywords" content="engenharia, civil, elétrica, mecânica, manutenção, teatros, automação"/> <!--Palavras chave-->
+        <meta name="author" content="Pietro Mario Rodrigues Mazzuia"/> <!--Indicação de autor-->
+        <meta name="Refresh" content="30"/> <!--Atualização automatica da página-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--Definição de largura da página-->
         <link rel="stylesheet" href="public/CSS/header.css"/>
         <link rel="stylesheet" href="public/CSS/footer.css"/>
         <link rel="stylesheet" href="public/CSS/devaria.css"/>
+        <link rel="stylesheet" href="public/CSS/index.css"/>
+
+        <title>Mazzuia Engenharia</title>
     </head>
+
     <body>
         <header>
-            <h1>Olá Mundo! Essa é a minha primeira pagina WEB!</h1>
-            <nav>
-                <ul>
-                    <li><a href="Index.html">Home</a></li>
+            <a href="Index.html" class="link-logo">
+                <img src="public/Imagens/Logo Completo.jpg" alt="Logo"width="25%"/>
+            </a>
+            <nav class="menu">
+                <ul style="padding-left: 0px;">
                     <li><a href="Profissionais.html">Profissionais</a></li>
                     <li><a href="FaleConosco.html">Fale Conosco</a></li>
                     <li><a href="Devstars.html">Devstars</a></li>
@@ -20,15 +29,20 @@
             </nav>
         </header>
     </body>
+
     <main>
-        <section>
-            <img src="public/Imagens/DogPop.jpg" width="324" alt="Dog"> 
+        <h1 class="title">Olá Mundo! Essa é a minha primeira pagina WEB!</h1>
+        <section class="cover_container">
+            <figure>
+                <img src="public/Imagens/DogPop.jpg" alt="Dog">
+            </figure> 
         </section>
         <section>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZGvqa4UNGyA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h3 class="color-red"> Para que o <abbr title="Developers">DEVs</abbr> fiquem sabendo</h3> 
+            <iframe height="60%" src="https://www.youtube.com/embed/ZGvqa4UNGyA" title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
         </section>
     </main>
+
     <footer>
         <section>
             <span>pietro@mazzuia.br</span><br/>

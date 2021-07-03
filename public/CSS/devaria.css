@@ -1,7 +1,6 @@
 /*  Estilos globais */
 body {
-    background-color: #1c0c3f;
-    font-family: sans-serif;
-    color: #fff;
-    
+    background-color: #ffffff; /* Cor do plano de fundo*/
+    font-family: sans-serif; /* Fonte de texto da página*/
+    color: #fbcf35; /*Cor da fonte da página */
 }
